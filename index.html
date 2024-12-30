@@ -4,11 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minty Virtual House</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset some styles */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Light background */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Main content styling */
+        h1 {
+            color: #5C6BC0;
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+
+        /* Navigation Bar */
+        .nav-links {
+            margin-top: 30px;
+        }
+
+        .nav-links a {
+            font-size: 1.1em;
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #FFC107;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: #FF5722;
+            color: white;
+        }
+
+        /* Buttons section */
+        .btn-container {
+            margin-top: 50px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 30px;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #388E3C;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        footer a {
+            color: #5C6BC0;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Minty Virtual House!</h1>
-    <p>Get ready to explore the future of AI and human collaboration.</p>
-    <script src="app.js"></script>
+    <h1>Welcome to Minty Virtual House</h1>
+    <p>Step into your new digital world! The space is still growing, but you're part of the journey.</p>
+
+    <!-- Navigation links -->
+    <div class="nav-links">
+        <a href="#">Explore</a>
+        <a href="#">Learn</a>
+        <a href="#">Join the Community</a>
+    </div>
+
+    <!-- Buttons for actions -->
+    <div class="btn-container">
+        <button class="btn">Enter the House</button>
+        <button class="btn">Learn More</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with love by <a href="https://github.com/R1ghteous" target="_blank">R1ghteous</a></p>
+    </footer>
 </body>
 </html>
